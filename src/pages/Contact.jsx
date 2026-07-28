@@ -4,7 +4,7 @@ import Seo from '../components/Seo'
 import Reveal from '../components/Reveal'
 
 // Replace with your real Formspree endpoint: https://formspree.io/forms -> create a form -> copy its ID
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID'
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mqernwl'
 
 const INTEREST_OPTIONS = [
   'Custom Software Development',
@@ -213,8 +213,12 @@ export default function Contact() {
                       <p className="md:col-span-2 text-sm text-red-500 font-light">
                         Something went wrong while submitting the request. Please try again, or
                         email us directly at{' '}
-                        <a href="mailto:hello@kalixsystems.com" className="underline">
-                          hello@kalixsystems.com
+                        <a href="mailto:atharva@kalixsystems.com" className="underline">
+                          atharva@kalixsystems.com
+                        </a>{' '}
+                        or{' '}
+                        <a href="mailto:devyansh@kalixsystems.com" className="underline">
+                          devyansh@kalixsystems.com
                         </a>
                         .
                       </p>
@@ -243,11 +247,18 @@ export default function Contact() {
                   </div>
                   <div className="space-y-4 mb-8">
                     <a
-                      href="mailto:hello@kalixsystems.com"
+                      href="mailto:atharva@kalixsystems.com"
                       className="flex items-center gap-3 text-sm font-light tracking-wide hover:text-black/70 transition-colors"
                     >
                       <Mail className="w-4 h-4 opacity-50" />
-                      hello@kalixsystems.com
+                      atharva@kalixsystems.com
+                    </a>
+                    <a
+                      href="mailto:devyansh@kalixsystems.com"
+                      className="flex items-center gap-3 text-sm font-light tracking-wide hover:text-black/70 transition-colors"
+                    >
+                      <Mail className="w-4 h-4 opacity-50" />
+                      devyansh@kalixsystems.com
                     </a>
                   </div>
                   <div className="text-xs tracking-[0.2em] uppercase text-black/40 mb-3 font-light">

@@ -25,16 +25,15 @@ npm run dev       # local dev server
 npm run build     # production build -> dist/
 ```
 
-## Before going live
+## Config
 
-1. **Contact form.** [src/pages/Contact.jsx](src/pages/Contact.jsx) posts to
-   `FORMSPREE_ENDPOINT`, currently a placeholder
-   (`https://formspree.io/f/YOUR_FORM_ID`). Create a form at
-   [formspree.io](https://formspree.io), copy its endpoint, and replace the
-   constant at the top of that file.
-2. **Direct contact email.** `hello@kalixsystems.com` is used as the fallback
-   contact address in the footer and Contact page — swap it for whichever
-   inbox should receive services inquiries if different.
-3. **Deploy.** Any static host works (Vercel, Netlify, Cloudflare Pages).
-   Point `services.kalixsystems.com` at the deployment via CNAME, build
-   command `npm run build`, output directory `dist`.
+- **Contact form** posts to Formspree via `FORMSPREE_ENDPOINT` in
+  [src/pages/Contact.jsx](src/pages/Contact.jsx).
+- **Direct contact emails** shown in the footer and Contact page are
+  `atharva@kalixsystems.com` and `devyansh@kalixsystems.com`.
+
+## Deploy
+
+Hosted on Vercel. `services.kalixsystems.com` is pointed at the deployment
+via a CNAME record in Namecheap DNS (kalixsystems.com's registrar). Build
+command `npm run build`, output directory `dist`.

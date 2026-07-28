@@ -22,7 +22,8 @@ const COLUMNS = [
   {
     heading: 'Get in touch',
     links: [
-      { label: 'hello@kalixsystems.com', to: 'mailto:hello@kalixsystems.com', external: true },
+      { label: 'atharva@kalixsystems.com', to: 'mailto:atharva@kalixsystems.com', external: true },
+      { label: 'devyansh@kalixsystems.com', to: 'mailto:devyansh@kalixsystems.com', external: true },
       { label: 'kalixsystems.com', to: 'https://kalixsystems.com', external: true },
     ],
   },
