@@ -4,7 +4,7 @@ import Seo from '../components/Seo'
 import Reveal from '../components/Reveal'
 
 // Replace with your real Formspree endpoint: https://formspree.io/forms -> create a form -> copy its ID
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mqernwl'
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xvzellne'
 
 const INTEREST_OPTIONS = [
   'Custom Software Development',
